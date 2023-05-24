@@ -1,0 +1,28 @@
+<h2>Hello {{name}}</h2> <!-- {{}} = afficher le nom en lecture seul-->
+Votre nom:<input type="text" name="name" [(ngModel)]="name" > <!--[(ngModel)] afficher le nom en lecture et écriture-->
+<table class="table table-bordered" align="center" width="50%">
+  <thead>
+    <tr>
+      <th>commande</th>
+      <th>description</th>
+    </tr>
+</thead>
+<tbody>
+  <tr><td>ng serve</td>
+  <td>exécuter l'application</td></tr>
+  <tr><td>ng generate component component-name</td>
+  <td>créer un nouveau composant</td></tr>
+  <tr><td>ng build</td>
+  <td>compiler l'application</td></tr>
+  <tr><td>ng test</td>
+  <td>lancer les tests unitaires</td></tr>
+  <tr><td>ng e2e</td>
+  <td>lancer les tests d'intégration</td></tr>
+  <tr><td>ng lint</td>
+  <td>exécuter linter de code</td></tr>
+  <tr><td>ng help</td>
+  <td>afficher l'aide pour les commandes</td></tr>
+
+
+</tbody>
+</table>
